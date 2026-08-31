@@ -47,6 +47,43 @@
       </form>
 
       <h2> Post Form </h2>
+      <form method="Post" action ="https://cs.converse.edu/CSC235/FormsDemo.php">
+          <label for="Post-name">What is your name?</label>
+          <input type="text" id="Post-name" name="name"><br>
+          <label for="Post-dob">Date of birth:</label>
+          <input type="date" id="get-dob" name="DOB" value="2006-08-29"><br>
+          <label for="Post-pswd">Password</label>
+          <input type="password" id="Post-pswd" name="password"><br>
+          <label for="Post-name"> What is your favorite pizza topping?</label>
+          <input type="text" id="Post-name"name = "name"><br>
+          <label for="Post-quest"> Whcih is your least favorite topping? </label>
+          <input type="text" id="Post-quest" name = "quest"><br>
+          <label for="Post-name"> Now pick a pizza place</label>
+            <select id="Post-color" name="color"> 
+              <option value="Throw him into the Pit od despair">&mdash;Please select an answer&mdash;</option> 
+              <optgroup label="places"> 
+              <option>Dominos</option> 
+              <option>Pizza Hut</option> 
+              <option>Papa Johns</option> 
+              <option>Marco's Pizza</option> 
+              <option>Little caesars</option> 
+            </optgroup> 
+          </select><br>
+          <p> How many slices of pizza do you eat from the whole pizza? <br>
+          <input type="radio" id="Post-slice1" name="slice" value="1-2">
+          <label for="Post-slice1"> 1-2 slices </label><br>
+          <input type="radio" id="Post-slice2" name="slice" value="3-4">
+          <label for="Post-slice2"> 3-4 slices </label><br>
+          <input type="radio" id="Post-slice3" name="slice" value="5-6">
+          <label for="Post-slice3"> 5-6 slices </label><br>
+          <input type="radio" id="Post-slice4" name="slice" value="whole pizza">
+          <label for="Post-slice4"> Whole pizza </label><br>
+          </p>
+          <input type="hidden" name="not-many-slices" value="I dont eat many slices"><br>
+          <label for="Post-comments"> Any comments about pizza? </label><br>
+          <textarea id="Post-comments" name="comments" rows="4" cols="50"> </textarea><br>
+          <input type="submit"><input type="reset"><br><br>
+      </form>
 
   </body>
   </html>
