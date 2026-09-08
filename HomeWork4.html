@@ -1,172 +1,65 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Dream Car</title>
 
-<html lang="en"> <head> <meta charset="utf-8"> <title>Pizza Survey</title>
+    <link rel="stylesheet" href="Homework4.css">
 
-<link rel="stylesheet" href="Homework4.css">
-
-<style>
-    h2 {
-        color: darkred;
-        text-align: center;
-    }
-
-    form {
-        background-color: white;
-    }
-</style>
-
+    <style>
+        h2 {
+            color: darkred;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
 
-<h1 style="letter-spacing: 2px;">Forms Demo</h1>
+    <h1 style="letter-spacing: 2px;">My Dream Car</h1>
 
-<h2>Get Form</h2>
+    <h2>Corvette C7 Z06</h2>
 
-<form method="get" action="https://cs.converse.edu/CSC235/formecho.php">
+    <p>
+        My dream car is the Corvette C7 Z06. I like this car because
+        it has a powerful engine, a great design, and a lot of speed.
+        The Corvette C7 Z06 is one of my favorite sports cars.
+    </p>
 
-<label for="get-name">What is your name?</label>
-<input type="text" id="get-name" name="name"><br>
+    <h2>Why I Like It</h2>
 
-<label for="get-dob">Date of birth:</label>
-<input type="date" id="get-dob" name="DOB" value="2006-08-29"><br>
+    <ul>
+        <li>It has a powerful V8 engine.</li>
+        <li>It has a fast and sporty design.</li>
+        <li>It is fun to drive and watch.</li>
+        <li>The Corvette is an American sports car.</li>
+    </ul>
 
-<label for="get-pswd">Password</label>
-<input type="password" id="get-pswd" name="password"><br>
+    <h2>Corvette C7 Z06 Features</h2>
 
-<label for="get-favorite">What is your favorite pizza topping?</label>
-<input type="text" id="get-favorite" name="favorite"><br>
+    <table>
+        <tr>
+            <th>Feature</th>
+            <th>Information</th>
+        </tr>
+        <tr>
+            <td>Engine</td>
+            <td>6.2L V8</td>
+        </tr>
+        <tr>
+            <td>Horsepower</td>
+            <td>650 HP</td>
+        </tr>
+        <tr>
+            <td>Type</td>
+            <td>Sports Car</td>
+        </tr>
+    </table>
 
-<label for="get-quest">Which is your least favorite topping?</label>
-<input type="text" id="get-quest" name="quest"><br>
+    <p>
+        Overall, the Corvette C7 Z06 is my dream car because of its
+        performance, appearance, and power.
+    </p>
 
-<label for="get-place">Now pick a pizza place</label>
-
-<select id="get-place" name="place">
-    <option value="">—Please select an answer—</option>
-    <optgroup label="Places">
-        <option>Dominos</option>
-        <option>Pizza Hut</option>
-        <option>Papa Johns</option>
-        <option>Marco's Pizza</option>
-        <option>Little Caesars</option>
-    </optgroup>
-</select><br>
-
-<p>
-    How many slices of pizza do you eat from the whole pizza?<br>
-
-    <input type="radio" id="get-slice1" name="slice" value="1-2">
-    <label for="get-slice1">1-2 slices</label><br>
-
-    <input type="radio" id="get-slice2" name="slice" value="3-4">
-    <label for="get-slice2">3-4 slices</label><br>
-
-    <input type="radio" id="get-slice3" name="slice" value="5-6">
-    <label for="get-slice3">5-6 slices</label><br>
-
-    <input type="radio" id="get-slice4" name="slice" value="whole pizza">
-    <label for="get-slice4">Whole pizza</label><br>
-</p>
-
-<input type="hidden" name="not-many-slices" value="I dont eat many slices">
-
-<p>
-    What sides do you like with your pizza? (check all that apply):<br>
-
-    <input type="checkbox" id="get-side1" name="side" value="breadsticks">
-    <label for="get-side1">Breadsticks</label><br>
-
-    <input type="checkbox" id="get-side2" name="side" value="salad">
-    <label for="get-side2">Salad</label><br>
-
-    <input type="checkbox" id="get-side3" name="side" value="wings">
-    <label for="get-side3">Wings</label><br>
-
-    <input type="checkbox" id="get-side4" name="side" value="fries">
-    <label for="get-side4">Fries</label><br>
-</p>
-
-<label for="get-comments">Any comments about pizza?</label><br>
-<textarea id="get-comments" name="comments" rows="4" cols="50"></textarea><br>
-
-<input type="submit">
-<input type="reset">
-
-</form>
-
-<h2>Post Form</h2>
-
-<form method="post" action="https://cs.converse.edu/CSC235/formecho.php">
-
-<label for="post-name">What is your name?</label>
-<input type="text" id="post-name" name="name"><br>
-
-<label for="post-dob">Date of birth:</label>
-<input type="date" id="post-dob" name="DOB" value="2006-08-29"><br>
-
-<label for="post-pswd">Password</label>
-<input type="password" id="post-pswd" name="password"><br>
-
-<label for="post-favorite">What is your favorite pizza topping?</label>
-<input type="text" id="post-favorite" name="favorite"><br>
-
-<label for="post-quest">Which is your least favorite topping?</label>
-<input type="text" id="post-quest" name="quest"><br>
-
-<label for="post-place">Now pick a pizza place</label>
-
-<select id="post-place" name="place">
-    <option value="">—Please select an answer—</option>
-    <optgroup label="Places">
-        <option>Dominos</option>
-        <option>Pizza Hut</option>
-        <option>Papa Johns</option>
-        <option>Marco's Pizza</option>
-        <option>Little Caesars</option>
-    </optgroup>
-</select><br>
-
-<p>
-    How many slices of pizza do you eat from the whole pizza?<br>
-
-    <input type="radio" id="post-slice1" name="slice" value="1-2">
-    <label for="post-slice1">1-2 slices</label><br>
-
-    <input type="radio" id="post-slice2" name="slice" value="3-4">
-    <label for="post-slice2">3-4 slices</label><br>
-
-    <input type="radio" id="post-slice3" name="slice" value="5-6">
-    <label for="post-slice3">5-6 slices</label><br>
-
-    <input type="radio" id="post-slice4" name="slice" value="whole pizza">
-    <label for="post-slice4">Whole pizza</label><br>
-</p>
-
-<input type="hidden" name="not-many-slices" value="I dont eat many slices">
-
-<p>
-    What sides do you like with your pizza? (check all that apply):<br>
-
-    <input type="checkbox" id="post-side1" name="side" value="breadsticks">
-    <label for="post-side1">Breadsticks</label><br>
-
-    <input type="checkbox" id="post-side2" name="side" value="salad">
-    <label for="post-side2">Salad</label><br>
-
-    <input type="checkbox" id="post-side3" name="side" value="wings">
-    <label for="post-side3">Wings</label><br>
-
-    <input type="checkbox" id="post-side4" name="side" value="fries">
-    <label for="post-side4">Fries</label><br>
-</p>
-
-<label for="post-comments">Any comments about pizza?</label><br>
-<textarea id="post-comments" name="comments" rows="4" cols="50"></textarea><br>
-
-<input type="submit">
-<input type="reset">
-
-</form>
-
-</body> </html>
+</body>
+</html>
