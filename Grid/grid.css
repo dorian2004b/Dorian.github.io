@@ -35,44 +35,43 @@ body {
     grid-template-rows: repeat(3, 150px);
 }
 
-
 .teal {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 3;
 }
 
 .blue {
-    grid-column-start: 4;
+    grid-column-start: 3;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 
 .brown {
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 4;
 }
 
 .green {
-    grid-column-start: 3;
+    grid-column-start: 5;
     grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-.gray {
+.pink {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
 }
 
-.pink {
-    grid-column-start: 3;
+.gray {
+    grid-column-start: 5;
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 4;
